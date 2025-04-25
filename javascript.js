@@ -10,9 +10,9 @@ console.log(nuevoArray);
 ----------------------------------------------------------
 */
 
-function calcularPromedio (arrayNum){
-    return nums.reduce((a, b) => a + b) / nums.length
+function calcularPromedio(arrayNum){
+    return arrayNum.reduce((a, b) => a + b) / arrayNum.length;
 }
 
 let arrayNum = [2,4,5];
-console.log(calcularPromedio);
+console.log(calcularPromedio(arrayNum));
