@@ -10,9 +10,19 @@ console.log(nuevoArray);
 ----------------------------------------------------------
 */
 
+/* EJERCICIO 2
+---------------------------------------------------------
 function calcularPromedio(arrayNum){
     return arrayNum.reduce((a, b) => a + b) / arrayNum.length;
 }
 
 let arrayNum = [2,4,5];
 console.log(calcularPromedio(arrayNum));
+---------------------------------------------------------
+*/
+
+var colores = ['blanco', 'azul', 'verde'];
+
+colores.forEach(function(color){
+    console.log(color)
+})
