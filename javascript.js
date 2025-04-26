@@ -23,7 +23,11 @@ console.log(calcularPromedio(arrayNum));
 
 
 
-var colores = ['blanco', 'azul', 'verde'];
+let colores = ['blanco', 'azul', 'verde'];
 
-colores.forEach(setTimeout(color => console.log(color), 5000));
+colores.forEach(color => {
+    setTimeout(() => {
+      console.log(color);
+    }, 5000);
+  });
 
