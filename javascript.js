@@ -10,7 +10,7 @@ console.log(nuevoArray);
 ----------------------------------------------------------
 */
 
-/* EJERCICIO 2
+/* EJERCICIO 2 (tuve que investigar un poco, mi duda principal sería como es como funciona el hecho de que si es 3 o mas datos el que tiene el array, como sabe de ir sumando?)
 ---------------------------------------------------------
 function calcularPromedio(arrayNum){
     return arrayNum.reduce((a, b) => a + b) / arrayNum.length;
@@ -21,8 +21,9 @@ console.log(calcularPromedio(arrayNum));
 ---------------------------------------------------------
 */
 
+
+
 var colores = ['blanco', 'azul', 'verde'];
 
-colores.forEach(function(color){
-    console.log(color)
-})
+colores.forEach(setTimeout(color => console.log(color), 5000));
+
