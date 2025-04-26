@@ -24,10 +24,10 @@ console.log(calcularPromedio(arrayNum));
 
 
 let colores = ['blanco', 'azul', 'verde'];
+let tiempoRetraso = 1000; 
 
 colores.forEach(color => {
     setTimeout(() => {
       console.log(color);
-    }, 5000);
+    }, tiempoRetraso);
   });
-
