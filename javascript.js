@@ -21,13 +21,25 @@ console.log(calcularPromedio(arrayNum));
 ---------------------------------------------------------
 */
 
-
+/* EJERCICIO 3
 
 let colores = ['blanco', 'azul', 'verde'];
-let tiempoRetraso = 10000;
+let tiempoRetraso = 1000;
 
-colores.forEach((color, indice) => {
+colores.forEach((color, indice) => { 
   setTimeout(() => {
     console.log(color);
-  }, (indice + 1) * tiempoRetraso);
+  }, (indice + 1) * tiempoRetraso);  // porque quiero que el segundo se imprima un segundo despues que el anterior
 });
+
+*/
+
+function multiplicacionNumeros(num1,num2,callback){
+  return callback(num1*num2);
+}
+
+function resultado(numero){
+  console.log("El resultado es: ", numero)
+}
+
+multiplicacionNumeros(2,3,resultado);
