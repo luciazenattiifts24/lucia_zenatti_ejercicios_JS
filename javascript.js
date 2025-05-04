@@ -48,12 +48,18 @@ multiplicacionNumeros(2,3,resultado);
 
 */
 
+let contador = 0;
+
+const mostradorResultado = document.getElementById('resultado');
+const btnIncrement = document.getElementById('btnIncrement');
+const brnDecrease = document.getElementById('btnDecrease');
+
 function increment(){
-  0++
+  0++;
+  
 };
 
 function decrease(){
   0--
 }
 
-console.log();
