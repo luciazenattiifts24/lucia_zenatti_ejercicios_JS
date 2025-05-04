@@ -34,6 +34,8 @@ colores.forEach((color, indice) => {
 
 */
 
+/* Ejercicio 4 (se que podria hacerlo con funcion flecha pero me esta costando bastante)
+
 function multiplicacionNumeros(num1,num2,callback){
   return callback(num1*num2);
 }
@@ -43,3 +45,15 @@ function resultado(numero){
 }
 
 multiplicacionNumeros(2,3,resultado);
+
+*/
+
+function increment(){
+  0++
+};
+
+function decrease(){
+  0--
+}
+
+console.log();
